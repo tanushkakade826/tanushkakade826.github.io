@@ -1,10 +1,10 @@
 :root {
-    --primaryText: #9ed317;
-    --secondaryText: #01ff4d;
+    --primaryText: #ffffff;
+    --secondaryText: rgb(68, 155, 255);
     --primary: rgba(39, 82, 176, 0.6);
-    --secondary: rgba(255, 1, 94, .60); 
-    --buttonHover: rgba(176, 174, 39, 0.4);
-    --smallButtonHover: rgba(0, 0, 0, .25);
+    --secondary: rgb(68, 155, 255); 
+    --buttonHover: rgb(68, 155, 255);
+    --smallButtonHover: rgb(255, 1, 1);
 }
 
 html {
@@ -34,7 +34,7 @@ body {
     background-attachment: fixed;
     /* Resizes the background image to cover the entire container */
     background-size: cover;
-    font-family: "Caveat", cursive;
+    font-family: "Cascadia Code";
     line-height: 1.5;
     font-size: 18px;
     display: flex;
